@@ -106,7 +106,7 @@ class Cartflows_Checkout_Markup {
 	 */
 	public function load_google_places_library() {
 
-		$auto_fields_settings = Cartflows_Helper::get_admin_settings_option( '_cartflows_google_auto_address', false, true );
+		$auto_fields_settings = Cartflows_Helper::get_admin_settings_option( '_cartflows_google_auto_address', false, false );
 
 		if ( empty( $auto_fields_settings['google_map_api_key'] ) ) {
 			return;

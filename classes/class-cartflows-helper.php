@@ -91,8 +91,9 @@ class Cartflows_Helper {
 
 
 	/**
-	 * Returns an option from the database for
-	 * the admin settings page.
+	 * Returns an option from the database for the admin settings page.
+	 *
+	 * Note: Note: Use this function to access any properties to front-end of the website.
 	 *
 	 * @param  string  $key     The option key.
 	 * @param  mixed   $default Option default value if option is not available.
@@ -113,6 +114,8 @@ class Cartflows_Helper {
 
 	/**
 	 * Updates an option from the admin settings page.
+	 *
+	 * Note: Use this function to access any properties to front-end of the website.
 	 *
 	 * @param string $key       The option key.
 	 * @param mixed  $value     The value to update.
@@ -1485,6 +1488,16 @@ class Cartflows_Helper {
 		}
 
 		return 'yes' === wcf()->options->get_flow_meta_value( $flow_id, 'wcf-enable-gcp-styling', 'no' );
+	}
+
+	/**
+	 * Function to check to show the products tab in the store checkout or not.
+	 *
+	 * @return bool
+	 * @since 2.0.4
+	 */
+	public static function display_product_tab_in_store_checkout() {
+		return apply_filters( 'cartflows_show_store_checkout_product_tab', false );
 	}
 }
 

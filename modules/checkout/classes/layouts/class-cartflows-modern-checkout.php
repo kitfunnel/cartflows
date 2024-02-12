@@ -149,7 +149,7 @@ class Cartflows_Modern_Checkout {
 			<div class="wcf-customer-info" id="customer_info">
 				<div class="wcf-customer-info__notice"></div>
 				<div class="woocommerce-billing-fields-custom">
-					<h3><?php echo esc_html( apply_filters( 'cartflows_woo_customer_info_text', __( 'Customer information', 'cartflows' ) ) ); ?>
+					<h3 id="customer_information_heading"><?php echo esc_html( apply_filters( 'cartflows_woo_customer_info_text', __( 'Customer information', 'cartflows' ) ) ); ?>
 						<?php if ( ! is_user_logged_in() && $is_allow_login ) { ?>
 							<div class="woocommerce-billing-fields__customer-login-label"><?php /* translators: %1$s: Link HTML start, %2$s Link HTML End */ echo wp_kses_post( sprintf( __( 'Already have an account? %1$1s Log in%2$2s', 'cartflows' ), '<a href="#!" class="wcf-customer-login-url">', '</a>' ) ); ?></div>
 						<?php } ?>
@@ -165,7 +165,7 @@ class Cartflows_Modern_Checkout {
 									'class'        => array( 'form-row-fill' ),
 									'required'     => true,
 									'label'        => __( 'Email Address', 'cartflows' ),
-									'default'      => $default,
+									'default'      => ! empty( $default ) ? $default : $current_user_email, // Default is false. Show the email ID received via URL parameter OR if show the current user email if he is logged in.
 									/* translators: %s: asterisk mark */
 									'placeholder'  => sprintf( __( 'Email Address %s', 'cartflows' ), $required_mark ),
 									'autocomplete' => 'email username',

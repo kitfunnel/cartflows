@@ -1,15 +1,15 @@
-# Copyright (C) 2023 CartFlows Inc
+# Copyright (C) 2024 CartFlows Inc
 # This file is distributed under the same license as the CartFlows plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: CartFlows 2.0.2\n"
+"Project-Id-Version: CartFlows 2.0.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cartflows\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-12-04T09:55:45+00:00\n"
+"POT-Creation-Date: 2024-01-23T13:14:53+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: cartflows\n"
@@ -68,13 +68,10 @@ msgid "Sorry, you are not allowed to do this operation."
 msgstr ""
 
 #: admin-core/ajax/ajax-errors.php:60
-#: admin-core/ajax/common-settings.php:193
-#: admin-core/ajax/common-settings.php:248
-#: admin-core/ajax/common-settings.php:352
-#: admin-core/ajax/common-settings.php:377
-#: admin-core/ajax/common-settings.php:408
-#: admin-core/ajax/common-settings.php:432
-#: admin-core/ajax/common-settings.php:456
+#: admin-core/ajax/common-settings.php:197
+#: admin-core/ajax/common-settings.php:254
+#: admin-core/ajax/common-settings.php:360
+#: admin-core/ajax/common-settings.php:393
 #: admin-core/inc/meta-ops.php:32
 #: modules/checkout/classes/class-cartflows-checkout-ajax.php:110
 #: wizard/ajax/ajax-errors.php:60
@@ -98,32 +95,32 @@ msgstr ""
 msgid "Successfully saved data!"
 msgstr ""
 
-#: admin-core/ajax/debugger.php:81
-#: admin-core/ajax/debugger.php:132
-#: admin-core/ajax/debugger.php:156
+#: admin-core/ajax/debugger.php:82
+#: admin-core/ajax/debugger.php:133
+#: admin-core/ajax/debugger.php:157
 msgid "You don't have permission to perform this action."
 msgstr ""
 
-#: admin-core/ajax/debugger.php:90
+#: admin-core/ajax/debugger.php:91
 msgid "Sync Success."
 msgstr ""
 
-#: admin-core/ajax/debugger.php:104
+#: admin-core/ajax/debugger.php:105
 #: admin-core/inc/log-status.php:79
 msgid "You don't have permission to view this page."
 msgstr ""
 
-#: admin-core/ajax/debugger.php:138
+#: admin-core/ajax/debugger.php:139
 #: admin-core/inc/log-status.php:175
 msgid "Filename is empty. Please refresh the page and retry."
 msgstr ""
 
-#: admin-core/ajax/debugger.php:173
+#: admin-core/ajax/debugger.php:174
 #: admin-core/inc/log-status.php:210
 msgid "Invalid file."
 msgstr ""
 
-#: admin-core/ajax/debugger.php:180
+#: admin-core/ajax/debugger.php:181
 msgid "Export logs successfully"
 msgstr ""
 
@@ -353,7 +350,7 @@ msgstr ""
 #. translators: %1$s: HTML, %2$s: HTML
 #: admin-core/ajax/importer.php:811
 #: admin-core/ajax/importer.php:928
-#: admin-core/inc/admin-helper.php:906
+#: admin-core/inc/admin-helper.php:930
 msgid "Request timeout error. Please check if the firewall or any security plugin is blocking the outgoing HTTP/HTTPS requests to templates.cartflows.com or not. %1$1sTo resolve this issue, please check this %2$2sarticle%3$3s."
 msgstr ""
 
@@ -502,8 +499,8 @@ msgid "Edit"
 msgstr ""
 
 #: admin-core/api/flows.php:210
-#: admin-core/inc/admin-helper.php:565
-#: admin-core/inc/admin-helper.php:625
+#: admin-core/inc/admin-helper.php:588
+#: admin-core/inc/admin-helper.php:648
 #: admin-core/assets/build/settings-app.js:14
 msgid "Duplicate"
 msgstr ""
@@ -514,10 +511,10 @@ msgid "Export"
 msgstr ""
 
 #: admin-core/api/flows.php:224
-#: admin-core/inc/admin-helper.php:582
-#: admin-core/inc/admin-helper.php:634
-#: admin-core/inc/admin-helper.php:702
-#: admin-core/inc/admin-helper.php:722
+#: admin-core/inc/admin-helper.php:605
+#: admin-core/inc/admin-helper.php:657
+#: admin-core/inc/admin-helper.php:725
+#: admin-core/inc/admin-helper.php:745
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:14
 #: admin-core/assets/build/settings-app.js:26
@@ -530,10 +527,10 @@ msgstr ""
 msgid "Step ID."
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:386
+#: admin-core/inc/admin-helper.php:409
 #: admin-core/inc/flow-meta.php:72
-#: classes/class-cartflows-helper.php:1242
-#: classes/class-cartflows-helper.php:1259
+#: classes/class-cartflows-helper.php:1245
+#: classes/class-cartflows-helper.php:1262
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:167
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:194
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:96
@@ -550,31 +547,31 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:403
+#: admin-core/inc/admin-helper.php:426
 msgid "System Fonts"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:421
+#: admin-core/inc/admin-helper.php:444
 msgid "Google Fonts"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:574
+#: admin-core/inc/admin-helper.php:597
 msgid "A/B Test"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:642
+#: admin-core/inc/admin-helper.php:665
 msgid "Archive"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:649
+#: admin-core/inc/admin-helper.php:672
 msgid "Declare as Winner"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:693
+#: admin-core/inc/admin-helper.php:716
 msgid "Deleted variation can't be restored."
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:694
+#: admin-core/inc/admin-helper.php:717
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:172
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:184
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:196
@@ -582,25 +579,25 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:714
+#: admin-core/inc/admin-helper.php:737
 #: admin-core/assets/build/settings-app.js:14
 msgid "Restore"
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:894
+#: admin-core/inc/admin-helper.php:918
 msgid "Ooops! Something went wrong. Please open a support ticket from the website."
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:895
+#: admin-core/inc/admin-helper.php:919
 msgid "No error found."
 msgstr ""
 
 #. translators: %1$s: HTML, %2$s: HTML, %3$s: HTML
-#: admin-core/inc/admin-helper.php:920
+#: admin-core/inc/admin-helper.php:944
 msgid "Sorry for the inconvenience, but your website seems to be having trouble connecting to our server. %1$s Please open a technical %2$ssupport ticket%3$s and share the server's outgoing IP address."
 msgstr ""
 
-#: admin-core/inc/admin-helper.php:922
+#: admin-core/inc/admin-helper.php:946
 msgid "Server's outgoing IP address: "
 msgstr ""
 
@@ -644,80 +641,80 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:496
+#: admin-core/inc/admin-menu.php:497
 msgid "Thin 100"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:497
+#: admin-core/inc/admin-menu.php:498
 msgid "Extra-Light 200"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:498
+#: admin-core/inc/admin-menu.php:499
 msgid "Light 300"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:499
+#: admin-core/inc/admin-menu.php:500
 msgid "Normal 400"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:500
+#: admin-core/inc/admin-menu.php:501
 msgid "Medium 500"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:501
+#: admin-core/inc/admin-menu.php:502
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:502
+#: admin-core/inc/admin-menu.php:503
 msgid "Bold 700"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:503
+#: admin-core/inc/admin-menu.php:504
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:504
+#: admin-core/inc/admin-menu.php:505
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:826
+#: admin-core/inc/admin-menu.php:827
 msgid "WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:827
+#: admin-core/inc/admin-menu.php:828
 msgid "WooCommerce is a customizable, open-source ecommerce platform built on WordPress."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:838
+#: admin-core/inc/admin-menu.php:839
 #: admin-core/assets/build/settings-app.js:15
 msgid "Cart Abandonment"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:839
+#: admin-core/inc/admin-menu.php:840
 msgid "Recover abandonded carts with ease in less than 10 minutes."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:850
+#: admin-core/inc/admin-menu.php:851
 msgid "Spectra"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:851
+#: admin-core/inc/admin-menu.php:852
 msgid "Power-up the Gutenberg editor with advanced and powerful blocks."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:862
+#: admin-core/inc/admin-menu.php:863
 msgid "Stripe Payments For WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:863
+#: admin-core/inc/admin-menu.php:864
 msgid "Accept credit card payments in your store with Stripe for WooCommerce."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:874
+#: admin-core/inc/admin-menu.php:875
 msgid "PayPal Payments For WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:875
+#: admin-core/inc/admin-menu.php:876
 msgid "Accept payments in your store with PayPal for WooCommerce."
 msgstr ""
 
@@ -847,11 +844,11 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:365
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:431
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:497
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:322
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:584
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:680
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:753
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:963
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:326
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:589
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:687
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:760
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:970
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:361
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:350
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:410
@@ -1296,104 +1293,104 @@ msgstr ""
 msgid "Learn More »"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:536
+#: classes/class-cartflows-helper.php:539
 msgid "First name"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:545
+#: classes/class-cartflows-helper.php:548
 msgid "Last name"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:554
+#: classes/class-cartflows-helper.php:557
 #: wizard/assets/build/wizard-app.js:3
 msgid "Email address"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1200
+#: classes/class-cartflows-helper.php:1203
 msgid "Enable Field"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1206
+#: classes/class-cartflows-helper.php:1209
 msgid "Field Width"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1212
+#: classes/class-cartflows-helper.php:1215
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:26
 msgid "33%"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1216
+#: classes/class-cartflows-helper.php:1219
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:26
 msgid "50%"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1220
+#: classes/class-cartflows-helper.php:1223
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:26
 msgid "100%"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1227
+#: classes/class-cartflows-helper.php:1230
 msgid "Field Label"
 msgstr ""
 
 #. translators: %$s is replaced with the HTML tag
-#: classes/class-cartflows-helper.php:1232
+#: classes/class-cartflows-helper.php:1235
 #: admin-core/assets/build/editor-app.js:23
 #: admin-core/assets/build/settings-app.js:27
 msgid "Field ID"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1236
+#: classes/class-cartflows-helper.php:1239
 msgid "Copy this field id to use in Order Custom Field rule of dynamic offers."
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1248
+#: classes/class-cartflows-helper.php:1251
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:28
 msgid "Checked"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1252
+#: classes/class-cartflows-helper.php:1255
 msgid "Un-Checked"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1269
+#: classes/class-cartflows-helper.php:1272
 #: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:256
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:28
 msgid "Options"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1293
+#: classes/class-cartflows-helper.php:1296
 msgid "Min Date"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1300
+#: classes/class-cartflows-helper.php:1303
 msgid "Max Date"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1312
+#: classes/class-cartflows-helper.php:1315
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:28
 msgid "Placeholder"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1321
+#: classes/class-cartflows-helper.php:1324
 msgid "Min Number"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1327
+#: classes/class-cartflows-helper.php:1330
 msgid "Max Number"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1336
+#: classes/class-cartflows-helper.php:1339
 msgid "Show In Email"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1343
+#: classes/class-cartflows-helper.php:1346
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:26
@@ -1401,25 +1398,25 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1351
+#: classes/class-cartflows-helper.php:1354
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:28
 msgid "Collapsible"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1392
+#: classes/class-cartflows-helper.php:1395
 msgid "CartFlows Primary Color"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1393
+#: classes/class-cartflows-helper.php:1396
 msgid "CartFlows Secondary Color"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1394
+#: classes/class-cartflows-helper.php:1397
 msgid "CartFlows Text Color"
 msgstr ""
 
-#: classes/class-cartflows-helper.php:1395
+#: classes/class-cartflows-helper.php:1398
 msgid "CartFlows Heading/Accent Color"
 msgstr ""
 
@@ -1667,7 +1664,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:112
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:141
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:150
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:407
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:411
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:207
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:308
 #: modules/gutenberg/build/blocks.js:11
@@ -1704,7 +1701,7 @@ msgstr ""
 #. translators: abbreviation for units
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:243
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:193
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:355
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:359
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:286
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:505
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:598
@@ -1718,7 +1715,7 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:273
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:137
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:399
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:403
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:199
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:302
 msgid "Input Fields"
@@ -1726,8 +1723,8 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:287
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:147
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:435
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:868
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:440
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:875
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:226
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:385
 #: modules/gutenberg/build/blocks.js:11
@@ -1738,7 +1735,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:301
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:161
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:472
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:446
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:451
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:237
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
@@ -1747,7 +1744,7 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:320
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:175
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:457
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:462
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:248
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Input Text / Placeholder Color"
@@ -1757,7 +1754,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:542
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:198
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:344
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:468
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:473
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:259
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Border Style"
@@ -1774,7 +1771,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:547
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:203
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:349
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:474
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:479
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:265
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Solid"
@@ -1784,7 +1781,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:548
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:204
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:350
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:477
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:482
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:268
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Dashed"
@@ -1794,7 +1791,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:549
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:205
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:351
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:476
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:481
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:267
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Dotted"
@@ -1804,7 +1801,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:550
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:206
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:352
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:475
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:480
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:266
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Double"
@@ -1814,7 +1811,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:582
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:230
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:377
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:492
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:497
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:278
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Border Width"
@@ -1825,8 +1822,8 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:840
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:245
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:393
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:509
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:930
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:514
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:937
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:290
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:406
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:538
@@ -1847,7 +1844,7 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:437
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:274
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:548
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:553
 #: modules/gutenberg/build/blocks.js:11
 msgid "Buttons"
 msgstr ""
@@ -1871,10 +1868,10 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:379
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:445
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:511
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:597
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:714
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:917
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:979
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:604
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:721
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:924
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:986
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:374
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:363
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:433
@@ -1901,7 +1898,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:626
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:331
 #: modules/beaver-builder/cartflows-bb-optin-form/cartflows-bb-optin-form.php:407
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:693
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:700
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:456
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:421
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:545
@@ -1910,35 +1907,35 @@ msgid "Border Hover Color"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:670
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:746
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:753
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Payment Section"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:688
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:766
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:773
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Description Color"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:702
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:792
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:799
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Information Background Color"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:710
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:714
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:779
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:786
 #: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:190
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Section Background Color"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:724
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:804
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:811
 msgid "Section Padding"
 msgstr ""
 
@@ -1948,7 +1945,7 @@ msgid "Margin"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:768
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:851
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:858
 msgid "Field Validation & Error Messages"
 msgstr ""
 
@@ -1959,17 +1956,17 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:788
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:487
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:880
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:887
 msgid "Field Border Color"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:808
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:903
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:910
 msgid "Error Message Color"
 msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-checkout-form/cartflows-bb-checkout-form.php:857
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:952
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:959
 #: modules/gutenberg/build/blocks.js:7
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
@@ -2220,7 +2217,7 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:318
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:447
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:616
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:623
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:395
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:373
 #: modules/gutenberg/build/blocks.js:11
@@ -2444,13 +2441,13 @@ msgid "%s Add Order Notes"
 msgstr ""
 
 #: modules/checkout/classes/class-cartflows-checkout-markup.php:458
-#: modules/optin/classes/class-cartflows-optin-markup.php:219
+#: modules/optin/classes/class-cartflows-optin-markup.php:228
 #: modules/thankyou/classes/class-cartflows-thankyou-markup.php:134
 msgid "WooCommerce functions do not exist. If you are in an IFrame, please reload it."
 msgstr ""
 
 #: modules/checkout/classes/class-cartflows-checkout-markup.php:459
-#: modules/optin/classes/class-cartflows-optin-markup.php:220
+#: modules/optin/classes/class-cartflows-optin-markup.php:229
 #: modules/thankyou/classes/class-cartflows-thankyou-markup.php:135
 msgid "Click Here to Reload"
 msgstr ""
@@ -3085,7 +3082,7 @@ msgid "All Rights Reserved"
 msgstr ""
 
 #: modules/elementor/class-cartflows-el-widgets-loader.php:177
-#: modules/gutenberg/classes/class-cartflows-init-blocks.php:574
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:575
 msgid "Cartflows"
 msgstr ""
 
@@ -3100,7 +3097,7 @@ msgstr ""
 msgid "This feature is available in the CartFlows higher plan. <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Upgrade Now!</a>."
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:363
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:367
 #: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:115
 #: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:139
 #: modules/gutenberg/build/blocks.js:11
@@ -3108,20 +3105,20 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:473
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:478
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:264
 msgid "Inherit"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:520
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:633
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:525
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:640
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:403
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:301
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:381
 msgid "Rounded Corners"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:577
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:582
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:354
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:343
 #: modules/gutenberg/build/blocks.js:11
@@ -3129,7 +3126,7 @@ msgstr ""
 msgid "Normal"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:673
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:680
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:417
 #: modules/elementor/widgets/class-cartflows-el-optin-form.php:403
 #: modules/gutenberg/build/blocks.js:11
@@ -3137,21 +3134,21 @@ msgstr ""
 msgid "Hover"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:817
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:824
 msgid "Section Margin"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:829
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:836
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Section Rounded Corners"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:859
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:866
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Field Validation"
 msgstr ""
 
-#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:894
+#: modules/elementor/widgets/class-cartflows-el-checkout-form.php:901
 msgid "Error Messages"
 msgstr ""
 
@@ -3550,19 +3547,19 @@ msgstr ""
 msgid "Downsell (Woo)"
 msgstr ""
 
-#: modules/gutenberg/classes/class-cartflows-init-blocks.php:145
-#: modules/gutenberg/classes/class-cartflows-init-blocks.php:187
-#: modules/gutenberg/classes/class-cartflows-init-blocks.php:297
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:146
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:188
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:298
 #: modules/woo-dynamic-flow/classes/class-cartflows-wd-flow-product-meta.php:86
 msgid "Permission denied."
 msgstr ""
 
-#: modules/gutenberg/classes/class-cartflows-init-blocks.php:211
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:212
 msgid "No product is selected. Please select products from the checkout meta settings to continue."
 msgstr ""
 
-#: modules/gutenberg/classes/class-cartflows-init-blocks.php:314
-#: modules/optin/classes/class-cartflows-optin-markup.php:312
+#: modules/gutenberg/classes/class-cartflows-init-blocks.php:315
+#: modules/optin/classes/class-cartflows-optin-markup.php:321
 msgid "No product is selected. Please select a Simple, Virtual and Free product from the meta settings."
 msgstr ""
 
@@ -3570,16 +3567,16 @@ msgstr ""
 msgid "Next Step Link"
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-markup.php:252
+#: modules/optin/classes/class-cartflows-optin-markup.php:261
 msgid "Please place shortcode on Optin step-type only."
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-markup.php:329
+#: modules/optin/classes/class-cartflows-optin-markup.php:338
 msgid "Please update the selected product's price to zero (0)."
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-markup.php:338
-#: modules/optin/classes/class-cartflows-optin-markup.php:342
+#: modules/optin/classes/class-cartflows-optin-markup.php:347
+#: modules/optin/classes/class-cartflows-optin-markup.php:351
 msgid "Please select a Simple, Virtual and Free product."
 msgstr ""
 
@@ -4424,6 +4421,21 @@ msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/settings-app.js:23
+msgid "Stopping…"
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:17
+#: admin-core/assets/build/settings-app.js:23
+msgid "Starting…"
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:17
+#: admin-core/assets/build/settings-app.js:23
+msgid "Reloading…"
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:17
+#: admin-core/assets/build/settings-app.js:23
 msgid "Split Test Settings"
 msgstr ""
 
@@ -4497,16 +4509,19 @@ msgid "Save"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:26
 msgid "Update Template"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:26
 msgid "Changing the template will permanently delete the current design in this step. Would you still like to proceed?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
+#: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:26
 msgid "Change Template"
 msgstr ""
@@ -4566,6 +4581,11 @@ msgstr ""
 #: admin-core/assets/build/settings-app.js:26
 #: admin-core/assets/build/settings-app.js:30
 msgid "Activate the License"
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:22
+#: admin-core/assets/build/settings-app.js:26
+msgid "Step Type: "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22

@@ -644,6 +644,11 @@ class Cartflows_Utils {
 	 */
 	public function may_be_append_query_string( $original_query_strings ) {
 
+		// Return if the feature is not enabled. Default is disabled.
+		if ( ! apply_filters( 'cartflows_enable_append_query_string', false ) ) {
+			return $original_query_strings;
+		}
+
 		// Check if HTTP_REFERER is set and fetch its query strings.
 		if ( empty( $_SERVER['HTTP_REFERER'] ) ) {
 			return $original_query_strings;
@@ -655,8 +660,16 @@ class Cartflows_Utils {
 		// Process only if the URL components is not empty and query i:e query strings are not empty.
 		if ( is_array( $url_params_components ) && ! empty( $url_params_components['query'] ) ) {
 
+			$forwarded_params = $url_params_components['query'];
+
 			// Convert the string query from string to array format.
-			parse_str( $url_params_components['query'], $parsed_query_string );
+			parse_str( $forwarded_params, $parsed_query_string );
+
+			// Remove the already present wcf-key and wcf-order params from the URl and append the rest of.
+			if ( $parsed_query_string['wcf-key'] && $parsed_query_string['wcf-order'] ) {
+				unset( $parsed_query_string['wcf-key'] );
+				unset( $parsed_query_string['wcf-order'] );
+			}
 
 			// Merge the new and already existing query strings.
 			$original_query_strings = array_merge( $original_query_strings, $parsed_query_string );

@@ -174,6 +174,8 @@ class AdminHelper {
 	/**
 	 * Get admin settings.
 	 *
+	 * Note: Use this function to access any properties to backend-end of the website i:e in admin-core.
+	 *
 	 * @param string $key key.
 	 * @param bool   $default key.
 	 * @param bool   $network_override key.
@@ -190,6 +192,27 @@ class AdminHelper {
 		}
 
 		return $value;
+	}
+
+	/**
+	 * Update admin settings.
+	 *
+	 * Note: Use this function to access any properties to backend-end of the website i:e in admin-core.
+	 *
+	 * @param string $key key.
+	 * @param mixed  $value key.
+	 * @param bool   $network network.
+	 * @return void
+	 */
+	public static function update_admin_settings_option( $key, $value, $network = false ) {
+
+		// Update the site-wide option since we're in the network admin.
+		if ( $network && is_multisite() ) {
+			update_site_option( $key, $value );
+		} else {
+			update_option( $key, $value );
+		}
+
 	}
 
 	/**
@@ -278,7 +301,7 @@ class AdminHelper {
 			)
 		);
 
-		$google_analytics_settings_data = self::get_admin_settings_option( '_cartflows_google_analytics', false, true );
+		$google_analytics_settings_data = self::get_admin_settings_option( '_cartflows_google_analytics', false, false );
 
 		$google_analytics_settings_data = wp_parse_args( $google_analytics_settings_data, $google_analytics_settings_default );
 
@@ -336,7 +359,7 @@ class AdminHelper {
 			)
 		);
 
-		$google_auto_fields_settings_data = self::get_admin_settings_option( '_cartflows_google_auto_address', false, true );
+		$google_auto_fields_settings_data = self::get_admin_settings_option( '_cartflows_google_auto_address', false, false );
 
 		$google_auto_fields_settings_data = wp_parse_args( $google_auto_fields_settings_data, $google_auto_fields_setting_default );
 
@@ -788,6 +811,7 @@ class AdminHelper {
 		return array(
 			'order_currency'       => $currency_symbol,
 			'total_orders'         => $order_count,
+			'total_revenue_raw'    => $gross_sale,
 			'total_revenue'        => str_replace( '&nbsp;', '', wc_price( (float) $gross_sale ) ),
 			'total_bump_revenue'   => '0',
 			'total_offers_revenue' => '0',

@@ -305,13 +305,17 @@ class Cartflows_Checkout_Form extends Widget_Base {
 						{{WRAPPER}} .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout .woocommerce form .form-row textarea:focus,
 						{{WRAPPER}} .wcf-embed-checkout-form.wcf-embed-checkout-form-modern-checkout .woocommerce #order_review .wcf-custom-coupon-field input.input-text:focus' => 'box-shadow: 0 0 0 1px {{VALUE}};',
 
-						/* Only Modern Checkout related CSS */
+						/* Only Two-Step Checkout related CSS */
+						'{{WRAPPER}} .wcf-embed-checkout-form-two-step .wcf-embed-checkout-form-steps .step-one.wcf-current:before,
+						{{WRAPPER}} .wcf-embed-checkout-form-two-step .wcf-embed-checkout-form-steps .step-two.wcf-current:before' => 'background-color: {{VALUE}};',
 
 						'{{WRAPPER}} .wcf-embed-checkout-form-two-step .wcf-embed-checkout-form-note:before' => 'border-top-color: {{VALUE}};',
 
-						'{{WRAPPER}} .wcf-embed-checkout-form-two-step .woocommerce .wcf-embed-checkout-form-nav-btns a.wcf-next-button,
-						{{WRAPPER}} .wcf-embed-checkout-form form .checkout_coupon .button,
-						body .wcf-pre-checkout-offer-wrapper #wcf-pre-checkout-offer-content button.wcf-pre-checkout-offer-btn' => 'background-color: {{VALUE}}; color: #fff;',
+						'{{WRAPPER}} .wcf-embed-checkout-form-two-step .woocommerce .wcf-embed-checkout-form-nav-btns .wcf-next-button,
+						{{WRAPPER}} .wcf-embed-checkout-form-two-step .wcf-embed-checkout-form-note,
+						{{WRAPPER}} .wcf-embed-checkout-form .wcf-custom-coupon-field button.wcf-submit-coupon,
+						{{WRAPPER}} .wcf-embed-checkout-form .woocommerce #order_review button,
+						body .wcf-pre-checkout-offer-wrapper #wcf-pre-checkout-offer-content button.wcf-pre-checkout-offer-btn' => 'background-color: {{VALUE}}; border-color: {{VALUE}};',
 					),
 				)
 			);
@@ -416,7 +420,8 @@ class Cartflows_Checkout_Form extends Widget_Base {
 				array(
 					'name'     => 'input_text_typography',
 					'label'    => 'Typography',
-					'selector' => '{{WRAPPER}} .wcf-embed-checkout-form .woocommerce form .form-row input.input-text,
+					'selector' => '{{WRAPPER}} .wcf-embed-checkout-form .woocommerce form .form-row input.input-text::placeholder,
+					{{WRAPPER}} .wcf-embed-checkout-form .woocommerce form .form-row input.input-text,
 					{{WRAPPER}} .wcf-embed-checkout-form .woocommerce form .form-row textarea,
 					{{WRAPPER}} .wcf-embed-checkout-form .select2-container--default .select2-selection--single,
 					{{WRAPPER}} .wcf-embed-checkout-form .woocommerce form .form-row select.select,
@@ -585,7 +590,9 @@ class Cartflows_Checkout_Form extends Widget_Base {
 							'type'      => Controls_Manager::COLOR,
 							'default'   => '',
 							'selectors' => array(
-								'{{WRAPPER}} .wcf-embed-checkout-form, {{WRAPPER}} .wcf-embed-checkout-form-modern-checkout' => '--wcf-btn-text-color: {{VALUE}};',
+								'{{WRAPPER}} .wcf-embed-checkout-form,
+								{{WRAPPER}} .wcf-embed-checkout-form-modern-checkout' => '--wcf-btn-text-color: {{VALUE}};',
+								'body .wcf-pre-checkout-offer-wrapper #wcf-pre-checkout-offer-content button.wcf-pre-checkout-offer-btn' => 'color: {{VALUE}};',
 							),
 						)
 					);

@@ -90,7 +90,7 @@ class Cartflows_Global_Checkout {
 		}
 
 		// Return if the key OR Order parameter is found in the URL for certain Payment gateways.
-		if ( isset( $_GET['key'] ) || isset( $_GET['order'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		if ( $this->should_show_global_checkout() ) { //phpcs:ignore WordPress.Security.NonceVerification.Recommended
 			return;
 		}
 
@@ -135,7 +135,7 @@ class Cartflows_Global_Checkout {
 		}
 
 		// Return if the key OR Order parameter is found in the URL for certain Payment gateways.
-		if ( isset( $_GET['key'] ) || isset( $_GET['order'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		if ( $this->should_show_global_checkout() ) {
 			return;
 		}
 
@@ -155,6 +155,21 @@ class Cartflows_Global_Checkout {
 				exit;
 			}
 		}
+	}
+
+	/**
+	 * Decide weather to show the global checkout page or not.
+	 *
+	 * @since x.x.x
+	 *
+	 * @return bool
+	 */
+	public static function should_show_global_checkout() {
+		global $post;
+		$checkout_id = ! empty( $post ) && ! empty( $post->ID ) ? intval( $post->ID ) : 0;
+
+		$is_allow = ( isset( $_GET['key'] ) || isset( $_GET['order'] ) ); //phpcs:ignore WordPress.Security.NonceVerification.Recommended
+		return apply_filters( 'cartflows_allow_display_global_checkout', $is_allow, $checkout_id );
 	}
 }
 

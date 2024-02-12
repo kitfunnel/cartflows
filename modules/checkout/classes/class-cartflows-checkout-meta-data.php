@@ -75,7 +75,7 @@ class Cartflows_Checkout_Meta_Data extends Cartflows_Step_Meta_Base {
 	public function remove_store_checkout_product( $settings, $step_id ) {
 		$flow_id = absint( get_post_meta( $step_id, 'wcf-flow-id', true ) );
 
-		if ( absint( \Cartflows_Helper::get_global_setting( '_cartflows_store_checkout' ) ) === $flow_id && ! apply_filters( 'cartflows_show_store_checkout_product_tab', false ) ) {
+		if ( absint( Cartflows_Helper::get_global_setting( '_cartflows_store_checkout' ) ) === $flow_id && ! Cartflows_Helper::display_product_tab_in_store_checkout() ) {
 			unset( $settings['tabs']['products'] );
 		}
 
@@ -1348,7 +1348,7 @@ class Cartflows_Checkout_Meta_Data extends Cartflows_Step_Meta_Base {
 			'show_in_email'     => ( isset( $field_data['show_in_email'] ) && wc_string_to_bool( $field_data['show_in_email'] ) ) ? 'yes' : 'no',
 			'required'          => ( isset( $field_data['required'] ) && wc_string_to_bool( $field_data['required'] ) ) ? 'yes' : 'no',
 			'optimized'         => ( isset( $field_data['optimized'] ) && wc_string_to_bool( $field_data['optimized'] ) ) ? 'yes' : 'no',
-			'options'           => ( isset( $field_data['options'] ) && ! empty( $field_data['options'] ) ) ? implode( '|', $field_data['options'] ) : '',
+			'options'           => ( isset( $field_data['options'] ) && ! empty( $field_data['options'] ) && is_array( $field_data['options'] ) ) ? implode( '|', $field_data['options'] ) : '',
 		);
 
 		return $field_args;

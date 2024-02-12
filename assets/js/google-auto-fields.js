@@ -9,9 +9,23 @@
 		postal_town: 'long_name',
 		sublocality_level_2: 'long_name',
 		administrative_area_level_1: 'short_name',
+		administrative_area_level_2: 'short_name',
 		country: 'short_name',
 		postal_code: 'short_name',
 	};
+
+	function handleAdminAreaLevel( fieldVal, elementId, default_state ) {
+		const sanitized_field_value = fieldVal.replace( /\s+/g, '' );
+		if (
+			$( `#${ elementId }` ).is( 'select' ) &&
+			$( `#${ elementId } option[value=${ sanitized_field_value }]` )
+				.length > 0
+		) {
+			return sanitized_field_value;
+		}
+
+		return default_state;
+	}
 
 	function init_google_billing_address( country ) {
 		// Create the autocomplete object, restricting the search to geographical
@@ -118,8 +132,15 @@
 						billing_country = fieldVal;
 					}
 
-					if ( addressType === 'administrative_area_level_1' ) {
-						state = fieldVal;
+					if (
+						addressType === 'administrative_area_level_1' ||
+						addressType === 'administrative_area_level_2'
+					) {
+						state = handleAdminAreaLevel(
+							fieldVal,
+							'billing_state',
+							state
+						);
 					}
 
 					if (
@@ -228,8 +249,15 @@
 							shipping_country = fieldVal;
 						}
 
-						if ( addressType === 'administrative_area_level_1' ) {
-							state = fieldVal;
+						if (
+							addressType === 'administrative_area_level_1' ||
+							addressType === 'administrative_area_level_2'
+						) {
+							state = handleAdminAreaLevel(
+								fieldVal,
+								'shipping_state',
+								state
+							);
 						}
 
 						if ( addressType === 'locality' ) {

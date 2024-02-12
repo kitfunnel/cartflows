@@ -133,6 +133,15 @@ class Cartflows_Optin_Markup {
 		}
 
 		add_action( 'cartflows_woo_checkout_update_order_review', array( $this, 'filter_remove_woo_data' ) );
+
+		/**
+		 * Remove the duplicate email fields when WooCommerce Payments gateway's WooPay option is enabled.
+		 *
+		 * @since x.x.x
+		 */
+		if ( class_exists( 'WC_Payments' ) && class_exists( 'WC_Payments_Features' ) && WC_Payments_Features::is_woopay_eligible() ) {
+			remove_action( 'woocommerce_cart_loaded_from_session', array( 'WC_Payments', 'init_woopay' ) );
+		}
 	}
 
 	/**

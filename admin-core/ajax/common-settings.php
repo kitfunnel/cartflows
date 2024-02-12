@@ -155,7 +155,9 @@ class CommonSettings extends AjaxBase {
 	}
 
 	/**
-	 * Save settings.
+	 * Save integration tab settings. Such as Facebook & Google Analytics and Google AutoAddress.
+	 *
+	 * Note: Called from save_global_settings function.
 	 *
 	 * @return void
 	 */
@@ -165,22 +167,24 @@ class CommonSettings extends AjaxBase {
 
 		if ( isset( $_POST['_cartflows_facebook'] ) ) { //phpcs:ignore
 			$new_settings = $this->sanitize_form_inputs( wp_unslash( $_POST['_cartflows_facebook'] ) ); //phpcs:ignore
-			$this->update_admin_settings_option( '_cartflows_facebook', $new_settings, false );
+			AdminHelper::update_admin_settings_option( '_cartflows_facebook', $new_settings, false );
 		}
 
 		if ( isset( $_POST['_cartflows_google_analytics'] ) ) { //phpcs:ignore
 			$new_settings = $this->sanitize_form_inputs( wp_unslash( $_POST['_cartflows_google_analytics'] ) ); //phpcs:ignore
-			$this->update_admin_settings_option( '_cartflows_google_analytics', $new_settings, false );
+			AdminHelper::update_admin_settings_option( '_cartflows_google_analytics', $new_settings, false );
 		}
 
 		if ( isset( $_POST['_cartflows_google_auto_address'] ) ) { //phpcs:ignore
 			$new_settings = $this->sanitize_form_inputs( wp_unslash( $_POST['_cartflows_google_auto_address'] ) ); //phpcs:ignore
-			$this->update_admin_settings_option( '_cartflows_google_auto_address', $new_settings, false );
+			AdminHelper::update_admin_settings_option( '_cartflows_google_auto_address', $new_settings, false );
 		}
 	}
 
 	/**
-	 * Save settings.
+	 * Save other tab settings.
+	 *
+	 * Note: Called from save_global_settings function.
 	 *
 	 * @return void
 	 */
@@ -201,15 +205,15 @@ class CommonSettings extends AjaxBase {
 
 		}
 
-		$this->update_admin_settings_option( 'cartflows_delete_plugin_data', $new_settings, false );
+		AdminHelper::update_admin_settings_option( 'cartflows_delete_plugin_data', $new_settings, false );
 
 		if ( _is_cartflows_pro() ) {
-			$this->update_admin_settings_option( 'cartflows_pro_delete_plugin_data', $new_settings, false );
+			AdminHelper::update_admin_settings_option( 'cartflows_pro_delete_plugin_data', $new_settings, false );
 		}
 
 		if ( isset( $_POST['cartflows_stats_report_emails'] ) ) {
 			$enable_report_emails = sanitize_text_field( $_POST['cartflows_stats_report_emails'] );
-			$this->update_admin_settings_option( 'cartflows_stats_report_emails', $enable_report_emails, false );
+			AdminHelper::update_admin_settings_option( 'cartflows_stats_report_emails', $enable_report_emails, false );
 		}
 
 		if ( isset( $_POST['cartflows_stats_report_email_ids'] ) ) {
@@ -226,16 +230,18 @@ class CommonSettings extends AjaxBase {
 					}
 				}
 				$validated_emails = implode( "\n", $validated_emails );
-				$this->update_admin_settings_option( 'cartflows_stats_report_email_ids', $validated_emails, false );
+				AdminHelper::update_admin_settings_option( 'cartflows_stats_report_email_ids', $validated_emails, false );
 			} else {
-				$this->update_admin_settings_option( 'cartflows_stats_report_email_ids', '', false );
+				AdminHelper::update_admin_settings_option( 'cartflows_stats_report_email_ids', '', false );
 			}
 		}
 
 	}
 
 	/**
-	 * Save settings.
+	 * Save common settings of CartFlows. Like Default Page Builder and Store Checkout.
+	 *
+	 * Note: Called from save_global_settings function.
 	 *
 	 * @return void
 	 */
@@ -259,7 +265,7 @@ class CommonSettings extends AjaxBase {
 		$common_settings = get_option( '_cartflows_common', false );
 		$new_settings    = wp_parse_args( $new_settings, $common_settings );
 
-		$this->update_admin_settings_option( '_cartflows_common', $new_settings, false );
+		AdminHelper::update_admin_settings_option( '_cartflows_common', $new_settings, false );
 
 	}
 
@@ -339,32 +345,9 @@ class CommonSettings extends AjaxBase {
 	}
 
 	/**
-	 * Save settings.
+	 * Save user role settings.
 	 *
-	 * @return void
-	 */
-	public function save_fb_pixel_settings() {
-
-		/**
-		 * Nonce verification
-		 */
-		if ( ! check_ajax_referer( 'cartflows_save_global_settings', 'security', false ) ) {
-			$response_data = array( 'messsage' => __( 'Nonce validation failed', 'cartflows' ) );
-			wp_send_json_error( $response_data );
-		}
-
-		$new_settings = array();
-
-		if ( isset( $_POST['_cartflows_facebook'] ) ) {
-			$new_settings = $this->sanitize_form_inputs( wp_unslash( $_POST['_cartflows_facebook'] ) ); //phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
-		}
-
-		$this->update_admin_settings_option( '_cartflows_facebook', $new_settings, false );
-
-	}
-
-	/**
-	 * Save settings.
+	 * Note: Called from save_global_settings function.
 	 *
 	 * @return void
 	 */
@@ -388,62 +371,16 @@ class CommonSettings extends AjaxBase {
 
 		$new_settings = wp_parse_args( $new_settings, $old_settings );
 
-		$this->update_admin_settings_option( '_cartflows_roles', $new_settings, false );
+		AdminHelper::update_admin_settings_option( '_cartflows_roles', $new_settings, false );
 
 		// Add/Remove capability.
 		$this->user_role_management( $new_settings, $old_settings );
 	}
 
 	/**
-	 * Save settings.
+	 * Save the permalink settings.
 	 *
-	 * @return void
-	 */
-	public function save_google_analytics_settings() {
-
-		/**
-		 * Nonce verification
-		 */
-		if ( ! check_ajax_referer( 'cartflows_save_global_settings', 'security', false ) ) {
-			$response_data = array( 'messsage' => __( 'Nonce validation failed', 'cartflows' ) );
-			wp_send_json_error( $response_data );
-		}
-
-		$new_settings = array();
-
-		if ( isset( $_POST['_cartflows_google_analytics'] ) ) {
-			$new_settings = $this->sanitize_form_inputs( wp_unslash( $_POST['_cartflows_google_analytics'] ) ); //phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
-		}
-
-		$this->update_admin_settings_option( '_cartflows_google_analytics', $new_settings, true );
-	}
-
-	/**
-	 * Save Auto Fields settings.
-	 *
-	 * @return void
-	 */
-	public function save_address_autocomplete_setting() {
-
-		/**
-		 * Nonce verification
-		 */
-		if ( ! check_ajax_referer( 'cartflows_save_global_settings', 'security', false ) ) {
-			$response_data = array( 'messsage' => __( 'Nonce validation failed', 'cartflows' ) );
-			wp_send_json_error( $response_data );
-		}
-
-		$new_settings = array();
-
-		if ( isset( $_POST['_cartflows_google_auto_address'] ) ) {
-			$new_settings = $this->sanitize_form_inputs( wp_unslash( $_POST['_cartflows_google_auto_address'] ) ); //phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
-		}
-
-		$this->update_admin_settings_option( '_cartflows_google_auto_address', $new_settings, true );
-	}
-
-	/**
-	 * Save settings.
+	 * Note: Called from save_global_settings function.
 	 *
 	 * @return void
 	 */
@@ -485,28 +422,11 @@ class CommonSettings extends AjaxBase {
 
 		}
 
-		$this->update_admin_settings_option( '_cartflows_permalink', $new_settings, false );
+		AdminHelper::update_admin_settings_option( '_cartflows_permalink', $new_settings, false );
 
 		update_option( 'cartflows_permalink_refresh', true );
 	}
 
-	/**
-	 * Update admin settings.
-	 *
-	 * @param string $key key.
-	 * @param bool   $value key.
-	 * @param bool   $network network.
-	 */
-	public function update_admin_settings_option( $key, $value, $network = false ) {
-
-		// Update the site-wide option since we're in the network admin.
-		if ( $network && is_multisite() ) {
-			update_site_option( $key, $value );
-		} else {
-			update_option( $key, $value );
-		}
-
-	}
 
 	/**
 	 * Save settings.

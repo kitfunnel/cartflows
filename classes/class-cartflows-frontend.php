@@ -174,7 +174,7 @@ class Cartflows_Frontend {
 			// loop over all of the registered scripts..
 			foreach ( $wp_styles->registered as $handle => $data ) {
 
-				if ( strpos( $data->src, $get_template ) !== false || strpos( $data->src, $get_stylesheet ) !== false ) {
+				if ( ! empty( $data->src ) && ( strpos( $data->src, $get_template ) !== false || strpos( $data->src, $get_stylesheet ) !== false ) ) {
 
 					// remove it.
 					wp_deregister_style( $handle );
@@ -190,7 +190,7 @@ class Cartflows_Frontend {
 			// loop over all of the registered scripts.
 			foreach ( $wp_scripts->registered as $handle => $data ) {
 
-				if ( strpos( $data->src, $get_template ) !== false || strpos( $data->src, $get_stylesheet ) !== false ) {
+				if ( ! empty( $data->src ) && ( strpos( $data->src, $get_template ) !== false || strpos( $data->src, $get_stylesheet ) !== false ) ) {
 
 					// remove it.
 					wp_deregister_script( $handle );

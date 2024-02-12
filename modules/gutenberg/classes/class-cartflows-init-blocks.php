@@ -109,7 +109,8 @@ class Cartflows_Init_Blocks {
 			$new_color_palette = Cartflows_Helper::generate_css_var_array( $flow_id );
 
 			if ( ! empty( $new_color_palette ) ) {
-				$theme_json_data_two['settings']['color']['palette']['theme'] = array_merge( $theme_json_data_two['settings']['color']['palette']['theme'], $new_color_palette );
+				$theme_color_pallet = ! empty( $theme_json_data_two['settings']['color']['palette']['theme'] ) ? $theme_json_data_two['settings']['color']['palette']['theme'] : array();
+				$theme_json_data_two['settings']['color']['palette']['theme'] = ! empty( $theme_color_pallet ) ? array_merge( $theme_color_pallet, $new_color_palette ) : $new_color_palette;
 			}
 		}
 
@@ -392,7 +393,7 @@ class Cartflows_Init_Blocks {
 					wp_enqueue_style( 'wcf-editor-helper-style', CARTFLOWS_URL . 'modules/gutenberg/assets/css/editor-assets.css', array( 'wp-edit-blocks', 'wp-editor' ), CARTFLOWS_VER );
 					wp_enqueue_script( 'wcf-editor-helper-script', CARTFLOWS_URL . 'modules/gutenberg/assets/js/editor-assets.js', array( 'wp-editor', 'jquery' ), CARTFLOWS_VER, true );
 				}
-			}       
+			}
 		}
 
 	}
@@ -526,7 +527,7 @@ class Cartflows_Init_Blocks {
 
 		}
 
-		if ( $flow_id === $store_checkout && apply_filters( 'cartflows_show_store_checkout_product_tab', false ) ) {
+		if ( $flow_id === $store_checkout && Cartflows_Helper::display_product_tab_in_store_checkout() ) {
 			return true;
 		}
 

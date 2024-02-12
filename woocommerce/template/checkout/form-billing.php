@@ -25,7 +25,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<?php else : ?>
 
-		<h3><?php echo wp_kses_post( apply_filters( 'cartflows_woo_billling_text', esc_html__( 'Billing details', 'woocommerce' ) ) ); ?></h3>
+		<h3 id="billing_fields_heading"><?php echo wp_kses_post( apply_filters( 'cartflows_woo_billling_text', esc_html__( 'Billing details', 'woocommerce' ) ) ); ?></h3>
 
 	<?php endif; ?>
 

@@ -91,7 +91,7 @@ class Cartflows_Admin_Report_Emails {
 			wcf()->logger->log( 'Send weekly emails to ' . $emails );
 			wcf()->logger->log( 'Total Revenue: ' . $stats['total_revenue'] );
 
-			if ( isset( $stats['total_revenue'] ) && $stats['total_revenue'] > 0 ) {
+			if ( isset( $stats['total_revenue_raw'] ) && $stats['total_revenue_raw'] > 0 ) {
 
 				$subject  = $this->get_email_subject();
 				$headers  = 'From: ' . get_bloginfo( 'name' ) . ' <' . get_option( 'admin_email' ) . '>' . "\r\n";
