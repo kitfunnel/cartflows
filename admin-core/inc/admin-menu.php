@@ -483,6 +483,7 @@ class AdminMenu {
 				'license_popup_url'                 => admin_url( 'plugins.php?cartflows-license-popup' ),
 				'store_checkout_show_product_tab'   => \Cartflows_Helper::display_product_tab_in_store_checkout(),
 				'cf_domain_url'                     => CARTFLOWS_DOMAIN_URL,
+				'cf_upgrade_to_pro_url'             => \Cartflows_Helper::get_upgrade_to_pro_link(),
 				'logo_url'                          => esc_url_raw( CARTFLOWS_URL . 'assets/images/cartflows-logo.svg' ),
 				'create_product_src'                => $product_src,
 				'cf_font_family'                    => AdminHelper::get_font_family(),

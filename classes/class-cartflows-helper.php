@@ -1499,5 +1499,27 @@ class Cartflows_Helper {
 	public static function display_product_tab_in_store_checkout() {
 		return apply_filters( 'cartflows_show_store_checkout_product_tab', false );
 	}
+
+	/**
+	 * Function get the CartFlows upgrade to PRO link.
+	 *
+	 * @param string $page      The page name which needs to be displayed.
+	 * @param string $custom_url The Another URL if wish to send.
+	 * @return string $url The modified URL.
+	 */
+	public static function get_upgrade_to_pro_link( $page = 'pricing', $custom_url = '' ) {
+
+		$base_url = CARTFLOWS_DOMAIN_URL . $page . '/';
+		$url      = empty( $custom_url ) ? $base_url : esc_url( $custom_url );
+
+		$partner_id = get_option( 'cartflows_partner_url_param', '' );
+		$partner_id = is_string( $partner_id ) ? sanitize_text_field( $partner_id ) : '';
+
+		if ( ! empty( $partner_id ) ) {
+			return add_query_arg( array( 'cf' => $partner_id ), $url );
+		}
+
+		return esc_url( $url );
+	}
 }
 

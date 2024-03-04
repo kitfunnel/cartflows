@@ -107,7 +107,7 @@ class Flows extends AjaxBase {
 
 		$response_data = array(
 			'message' => __( 'Funnel exported successfully', 'cartflows' ),
-			'flows'   => $flows,
+			'flows'   => wp_json_encode( $flows ),
 		);
 
 		wp_send_json_success( $response_data );

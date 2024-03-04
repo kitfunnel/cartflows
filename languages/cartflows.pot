@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the CartFlows plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: CartFlows 2.0.2.1\n"
+"Project-Id-Version: CartFlows 2.0.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cartflows\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-01-23T13:14:53+00:00\n"
+"POT-Creation-Date: 2024-02-14T12:16:43+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: cartflows\n"
@@ -641,80 +641,80 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:497
+#: admin-core/inc/admin-menu.php:498
 msgid "Thin 100"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:498
+#: admin-core/inc/admin-menu.php:499
 msgid "Extra-Light 200"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:499
+#: admin-core/inc/admin-menu.php:500
 msgid "Light 300"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:500
+#: admin-core/inc/admin-menu.php:501
 msgid "Normal 400"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:501
+#: admin-core/inc/admin-menu.php:502
 msgid "Medium 500"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:502
+#: admin-core/inc/admin-menu.php:503
 msgid "Semi-Bold 600"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:503
+#: admin-core/inc/admin-menu.php:504
 msgid "Bold 700"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:504
+#: admin-core/inc/admin-menu.php:505
 msgid "Extra-Bold 800"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:505
+#: admin-core/inc/admin-menu.php:506
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:827
+#: admin-core/inc/admin-menu.php:828
 msgid "WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:828
+#: admin-core/inc/admin-menu.php:829
 msgid "WooCommerce is a customizable, open-source ecommerce platform built on WordPress."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:839
+#: admin-core/inc/admin-menu.php:840
 #: admin-core/assets/build/settings-app.js:15
 msgid "Cart Abandonment"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:840
+#: admin-core/inc/admin-menu.php:841
 msgid "Recover abandonded carts with ease in less than 10 minutes."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:851
+#: admin-core/inc/admin-menu.php:852
 msgid "Spectra"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:852
+#: admin-core/inc/admin-menu.php:853
 msgid "Power-up the Gutenberg editor with advanced and powerful blocks."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:863
+#: admin-core/inc/admin-menu.php:864
 msgid "Stripe Payments For WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:864
+#: admin-core/inc/admin-menu.php:865
 msgid "Accept credit card payments in your store with Stripe for WooCommerce."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:875
+#: admin-core/inc/admin-menu.php:876
 msgid "PayPal Payments For WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:876
+#: admin-core/inc/admin-menu.php:877
 msgid "Accept payments in your store with PayPal for WooCommerce."
 msgstr ""
 
