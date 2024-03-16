@@ -129,7 +129,7 @@ $output .= "
 	}
 	.et_pb_module #wcf-embed-checkout-form .woocommerce #order_review button,
 	.et_pb_module #wcf-embed-checkout-form .woocommerce form.woocommerce-form-login .form-row button, 
-	.et_pb_module #wcf-embed-checkout-form .woocommerce #order_review button.wcf-btn-small {
+	.et_pb_module #wcf-embed-checkout-form .woocommerce #order_review button.wcf-btn-small{
 		color: {$submit_color};
 		background: {$submit_bg_color};
 		padding-top: {$submit_tb_padding}px;

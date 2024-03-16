@@ -288,11 +288,14 @@ if ( ! class_exists( 'CartFlows_Importer' ) ) :
 							// Download and replace images.
 							$content = $this->get_content( $step['post_content'] );
 
+							$is_divi = ( 'other' === $default_page_builder ) && ( class_exists( 'ET_Builder_Plugin' ) || Cartflows_Compatibility::get_instance()->is_divi_enabled() );
+
 							// Update post content.
 							wp_update_post(
 								array(
-									'ID'           => $new_step_id,
-									'post_content' => wp_slash( wp_json_encode( $content ) ),
+									'ID'           => intval( $new_step_id ),
+									// If the page builder is DIVI then pass the content as it is but for rest of the page builders, Encrypt it.
+									'post_content' => $is_divi ? $content : wp_slash( wp_json_encode( $content ) ),
 								)
 							);
 						}

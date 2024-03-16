@@ -137,7 +137,7 @@ if ( ! class_exists( 'CartFlows_Batch_Process' ) ) :
 			}
 
 			// Divi.
-			if ( ( 'divi' === $default_page_builder ) && ( class_exists( 'ET_Builder_Plugin' ) || Cartflows_Compatibility::get_instance()->is_divi_enabled() ) ) {
+			if ( ( 'other' === $default_page_builder ) && ( class_exists( 'ET_Builder_Plugin' ) || Cartflows_Compatibility::get_instance()->is_divi_enabled() ) ) {
 				require_once CARTFLOWS_DIR . 'classes/importer/batch-process/class-cartflows-importer-divi.php';
 				require_once CARTFLOWS_DIR . 'classes/importer/batch-process/class-cartflows-importer-divi-batch.php';
 				self::$batch_instance_divi = new Cartflows_Importer_Divi_Batch();

@@ -168,7 +168,7 @@ class AdminMenu {
 			$flow_redirect_url = esc_url( admin_url() . 'admin.php?page=' . $this->menu_slug . '&path=' . $path . '&action=wcf-edit-flow&flow_id=' . $flow_id );
 			?>
 		<script id="wcf-gutenberg-back-step-button" type="text/html">
-			<div class="wcf-notice-back-edit-step gutenberg-button" style="display: flex; align-content: center; margin: 0 5px 0 0;flex-basis: 100%;">
+			<div class="wcf-notice-back-edit-step gutenberg-button" style="display: flex; margin: 2px 5px;">
 				<a href="<?php echo esc_url( $flow_redirect_url ); ?>" class="button button-primary button-large wcf-header-back-button" style="text-decoration: none; font-size: 13px; line-height: 2.5;"><?php esc_html_e( 'Edit Funnel', 'cartflows' ); ?></a>
 			</div>
 		</script>

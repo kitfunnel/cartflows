@@ -645,9 +645,7 @@ class Importer extends AjaxBase {
 			);
 		}
 
-	//	$license_status = isset( $response['data']['licence_status'] ) ? $response['data']['licence_status'] : '';
 		$license_status = 'valid';
-
 
 		// If license is invalid then.
 		if ( 'valid' !== $license_status ) {
@@ -821,9 +819,7 @@ class Importer extends AjaxBase {
 			);
 		}
 
-	//	$license_status = isset( $response['data']['licence_status'] ) ? $response['data']['licence_status'] : '';
-		$license_status = 'valid';
-
+		$license_status = isset( $response['data']['licence_status'] ) ? $response['data']['licence_status'] : '';
 
 		// If license is invalid then.
 		if ( 'valid' !== $license_status ) {
@@ -940,9 +936,7 @@ class Importer extends AjaxBase {
 			);
 		}
 
-	//	$license_status = isset( $response['data']['licence_status'] ) ? $response['data']['licence_status'] : '';
-		$license_status = 'valid';
-
+		$license_status = isset( $response['data']['licence_status'] ) ? $response['data']['licence_status'] : '';
 
 		// If license is invalid then.
 		if ( 'valid' !== $license_status ) {
@@ -1131,7 +1125,7 @@ class Importer extends AjaxBase {
 			wp_send_json_error(
 				array(
 					'error_code' => $error_code,
-					'message'    => $error_msge->message,
+					'message'    => ! empty( $error_msge->message ) ? $error_msge->message : '',
 					'data'       => $response['data'],
 					'success'    => $response['success'],
 				)

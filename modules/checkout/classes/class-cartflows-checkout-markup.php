@@ -1269,6 +1269,8 @@ class Cartflows_Checkout_Markup {
 				font-weight: 500;
 				top: 0px;
     			position: relative;
+				opacity: 1;
+				display: block;
 			}';
 		}
 

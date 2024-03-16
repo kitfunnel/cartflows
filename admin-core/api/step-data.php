@@ -102,6 +102,8 @@ class StepData extends ApiBase {
 		/* Get Settings */
 		$settings_data = StepMeta::get_meta_settings( $step_id, $step_type );
 
+		$meta_options['options']['step_post_name'] = get_post_field( 'post_name', $step_id, 'edit' );
+
 		/* Prepare data */
 		$data = apply_filters(
 			'cartflows_admin_' . $step_type . '_step_data',
@@ -118,7 +120,8 @@ class StepData extends ApiBase {
 				'view'              => $view_step,
 				'edit'              => $edit_step,
 				'page_builder_edit' => $page_builder_edit,
-				'slug'              => get_post_field( 'post_name', $step_id, 'edit' ),
+				// phpcs:ignore Squiz.PHP.CommentedOutCode.Found
+				// 'slug'           => get_post_field( 'post_name', $step_id, 'edit' ),
 			),
 			$step_id
 		);

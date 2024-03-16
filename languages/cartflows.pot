@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the CartFlows plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: CartFlows 2.0.3\n"
+"Project-Id-Version: CartFlows 2.0.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cartflows\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-14T12:16:43+00:00\n"
+"POT-Creation-Date: 2024-03-11T08:53:01+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: cartflows\n"
@@ -144,8 +144,8 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:28
 #: admin-core/assets/build/settings-app.js:13
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:33
 msgid "(no title)"
 msgstr ""
 
@@ -269,8 +269,8 @@ msgstr ""
 #: admin-core/ajax/importer.php:549
 #: admin-core/assets/build/editor-app.js:12
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:18
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:27
 msgid "Thank You"
 msgstr ""
 
@@ -476,7 +476,7 @@ msgstr ""
 #: admin-core/api/flows.php:287
 #: admin-core/api/home-page.php:102
 #: admin-core/api/product/product-data.php:120
-#: admin-core/api/step-data.php:141
+#: admin-core/api/step-data.php:144
 msgid "Sorry, you cannot list resources."
 msgstr ""
 
@@ -486,7 +486,7 @@ msgstr ""
 
 #: admin-core/api/flows.php:194
 #: modules/flow/classes/class-cartflows-flow-post-type.php:229
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "View"
 msgstr ""
 
@@ -494,7 +494,7 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Edit"
 msgstr ""
 
@@ -517,8 +517,8 @@ msgstr ""
 #: admin-core/inc/admin-helper.php:745
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:14
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:60
 msgid "Delete"
 msgstr ""
 
@@ -541,7 +541,7 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Default"
@@ -624,8 +624,8 @@ msgstr ""
 #: admin-core/inc/admin-menu.php:268
 #: admin-core/assets/build/editor-app.js:12
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:19
 #: wizard/assets/build/wizard-app.js:3
 msgid "Store Checkout"
 msgstr ""
@@ -686,7 +686,7 @@ msgid "WooCommerce is a customizable, open-source ecommerce platform built on Wo
 msgstr ""
 
 #: admin-core/inc/admin-menu.php:840
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Cart Abandonment"
 msgstr ""
 
@@ -760,14 +760,14 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:29
 #: admin-core/assets/build/editor-app.js:30
 #: admin-core/assets/build/settings-app.js:13
-#: admin-core/assets/build/settings-app.js:23
 #: admin-core/assets/build/settings-app.js:24
 #: admin-core/assets/build/settings-app.js:25
 #: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:29
 #: admin-core/assets/build/settings-app.js:33
 #: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Yes"
 msgstr ""
 
@@ -786,14 +786,14 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:29
 #: admin-core/assets/build/editor-app.js:30
 #: admin-core/assets/build/settings-app.js:13
-#: admin-core/assets/build/settings-app.js:23
 #: admin-core/assets/build/settings-app.js:24
 #: admin-core/assets/build/settings-app.js:25
 #: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:29
 #: admin-core/assets/build/settings-app.js:33
 #: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "No"
 msgstr ""
 
@@ -1216,7 +1216,7 @@ msgstr ""
 
 #: classes/class-cartflows-admin.php:164
 #: admin-core/assets/build/editor-app.js:29
-#: admin-core/assets/build/settings-app.js:33
+#: admin-core/assets/build/settings-app.js:34
 msgid "Step"
 msgstr ""
 
@@ -1229,7 +1229,7 @@ msgid "You're almost there! Once you complete CartFlows setup you can start rece
 msgstr ""
 
 #: classes/class-cartflows-admin.php:172
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Complete Setup"
 msgstr ""
 
@@ -1316,19 +1316,19 @@ msgstr ""
 
 #: classes/class-cartflows-helper.php:1215
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "33%"
 msgstr ""
 
 #: classes/class-cartflows-helper.php:1219
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "50%"
 msgstr ""
 
 #: classes/class-cartflows-helper.php:1223
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "100%"
 msgstr ""
 
@@ -1339,7 +1339,7 @@ msgstr ""
 #. translators: %$s is replaced with the HTML tag
 #: classes/class-cartflows-helper.php:1235
 #: admin-core/assets/build/editor-app.js:23
-#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:28
 msgid "Field ID"
 msgstr ""
 
@@ -1349,7 +1349,7 @@ msgstr ""
 
 #: classes/class-cartflows-helper.php:1251
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Checked"
 msgstr ""
 
@@ -1360,7 +1360,7 @@ msgstr ""
 #: classes/class-cartflows-helper.php:1272
 #: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:256
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Options"
 msgstr ""
 
@@ -1374,7 +1374,7 @@ msgstr ""
 
 #: classes/class-cartflows-helper.php:1315
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Placeholder"
 msgstr ""
 
@@ -1393,14 +1393,14 @@ msgstr ""
 #: classes/class-cartflows-helper.php:1346
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:29
 msgid "Required"
 msgstr ""
 
 #: classes/class-cartflows-helper.php:1354
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Collapsible"
 msgstr ""
 
@@ -1438,14 +1438,14 @@ msgstr ""
 #: classes/class-cartflows-loader.php:597
 #: admin-core/assets/build/editor-app.js:28
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:33
 msgid "Activate WooCommerce"
 msgstr ""
 
 #: classes/class-cartflows-loader.php:604
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Install WooCommerce"
 msgstr ""
 
@@ -1989,7 +1989,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:139
 #: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:133
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Text"
@@ -2028,7 +2028,7 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:190
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Type"
 msgstr ""
 
@@ -2137,7 +2137,7 @@ msgstr ""
 
 #: modules/beaver-builder/cartflows-bb-next-step/cartflows-bb-next-step.php:263
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Width"
 msgstr ""
 
@@ -2481,35 +2481,35 @@ msgstr ""
 msgid "This product can't be purchased"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1391
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1433
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1393
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1435
 #: modules/checkout/templates/checkout/collapsed-order-summary.php:41
 msgid "Coupon Code"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1392
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1442
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1394
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1444
 #: modules/checkout/templates/checkout/collapsed-order-summary.php:46
 msgid "Apply"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1466
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1468
 msgid "Entered email address is not a valid email."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1467
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1469
 msgid "This email is already registered. Please enter the password to continue."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1470
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1472
 msgid "Value must be between "
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1657
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1659
 msgid "Show Order Summary"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1658
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1660
 msgid "Hide Order Summary"
 msgstr ""
 
@@ -2521,13 +2521,13 @@ msgstr ""
 
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:144
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:27
 msgid "Order Bumps"
 msgstr ""
 
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:156
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Dynamic Offers"
 msgstr ""
 
@@ -2768,13 +2768,13 @@ msgstr ""
 
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:854
 #: admin-core/assets/build/editor-app.js:26
-#: admin-core/assets/build/settings-app.js:30
+#: admin-core/assets/build/settings-app.js:31
 msgid "Auto Apply Coupon"
 msgstr ""
 
 #: modules/checkout/classes/class-cartflows-checkout-meta-data.php:861
 #: admin-core/assets/build/editor-app.js:26
-#: admin-core/assets/build/settings-app.js:30
+#: admin-core/assets/build/settings-app.js:31
 msgid "Product Options"
 msgstr ""
 
@@ -3012,7 +3012,7 @@ msgstr ""
 #: modules/checkout/templates/checkout/order-review-table.php:16
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:223
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Product"
 msgstr ""
 
@@ -3154,7 +3154,7 @@ msgstr ""
 
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:164
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 #: modules/gutenberg/build/blocks.js:11
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Title"
@@ -3226,7 +3226,7 @@ msgstr ""
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:627
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:716
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 #: modules/gutenberg/build/blocks.js:7
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Content"
@@ -3345,7 +3345,7 @@ msgstr ""
 #: modules/email-report/templates/email-stat-content.php:112
 #: modules/email-report/templates/email-stat-content.php:247
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Total Visits"
 msgstr ""
 
@@ -3398,7 +3398,7 @@ msgstr ""
 #: modules/flow/classes/class-cartflows-flow-post-type.php:108
 #: admin-core/assets/build/editor-app.js:28
 #: admin-core/assets/build/settings-app.js:14
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "View Flow"
 msgstr ""
 
@@ -3502,8 +3502,8 @@ msgstr ""
 #: modules/flow/classes/class-cartflows-step-post-type.php:167
 #: admin-core/assets/build/editor-app.js:45
 #: admin-core/assets/build/editor-app.js:55
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:59
 msgid "Search Steps"
 msgstr ""
 
@@ -3582,7 +3582,7 @@ msgstr ""
 
 #: modules/optin/classes/class-cartflows-optin-meta-data.php:76
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Enable Custom Field Editor"
 msgstr ""
 
@@ -3831,14 +3831,14 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:28
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Saving…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Save Settings"
 msgstr ""
 
@@ -3880,7 +3880,7 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add"
 msgstr ""
 
@@ -3892,35 +3892,35 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Items"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Quantity"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Discount"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Find products"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/settings-app.js:1
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Adding…"
 msgstr ""
 
@@ -4016,8 +4016,8 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:53
 #: admin-core/assets/build/settings-app.js:8
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Activate License"
 msgstr ""
 
@@ -4237,150 +4237,150 @@ msgstr ""
 
 #: admin-core/assets/build/editor-app.js:12
 #: admin-core/assets/build/settings-app.js:14
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "More Options"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:12
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid " (Pro)"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:12
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Control"
 msgstr ""
 
 #. translators: %d is replaced with the count
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "Variation-%d"
 msgstr ""
 
 #. translators: %d is replaced with the count
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "No Product Assigned"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "Store Checkout - Remove selected checkout product"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "PRO"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "Offer Accepted"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "Offer Rejected"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "Invalid Position"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
-#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:20
 msgid "Views"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:19
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:20
+#: admin-core/assets/build/settings-app.js:33
 msgid "Conversions"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:13
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:19
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:20
+#: admin-core/assets/build/settings-app.js:33
 msgid "Revenue"
 msgstr ""
 
 #. translators: %s: step slug
 #: admin-core/assets/build/editor-app.js:15
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:21
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:22
+#: admin-core/assets/build/settings-app.js:24
 msgid "%s Step"
 msgstr ""
 
 #. translators: %s: step slug
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Open Settings"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Duplicate Step"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Do you want to duplicate this step? Are you sure?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Delete Step"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Do you want to delete this step? Are you sure?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Declare Winner"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Do you want to declare this step as winner? Are you sure?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Archive Step"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Do you want to archive this step? Are you sure?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Saving.."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:23
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:24
+#: admin-core/assets/build/settings-app.js:33
 msgid "Saved"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Reloading.."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Split Test Testing"
 msgstr ""
 
@@ -4393,328 +4393,328 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
 #: admin-core/assets/build/settings-app.js:13
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
-#: admin-core/assets/build/settings-app.js:23
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:28
-#: admin-core/assets/build/settings-app.js:32
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:24
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:29
+#: admin-core/assets/build/settings-app.js:33
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Cancel"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Stop Split Test"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Start Split Test"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Split Test"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Stopping…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Starting…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Reloading…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Split Test Settings"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Restore Archived Variation"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
-#: admin-core/assets/build/settings-app.js:23
+#: admin-core/assets/build/settings-app.js:24
 msgid "Do you want to restore this archived variation? Are you sure?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/editor-app.js:19
-#: admin-core/assets/build/settings-app.js:23
-#: admin-core/assets/build/settings-app.js:25
+#: admin-core/assets/build/settings-app.js:24
+#: admin-core/assets/build/settings-app.js:26
 msgid "Trash Archived Variation"
 msgstr ""
 
 #. translators: %1$s is replaced with the HTML tag
 #: admin-core/assets/build/editor-app.js:18
-#: admin-core/assets/build/settings-app.js:24
+#: admin-core/assets/build/settings-app.js:25
 msgid "This action will trash this archived variation and its analytics data permanently. %1$s Do you want to delete this archived variation?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:18
-#: admin-core/assets/build/settings-app.js:24
+#: admin-core/assets/build/settings-app.js:25
 msgid "Hide Archived Variation"
 msgstr ""
 
 #. translators: %1$s is replaced with the HTML tag
 #: admin-core/assets/build/editor-app.js:19
-#: admin-core/assets/build/settings-app.js:25
+#: admin-core/assets/build/settings-app.js:26
 msgid "This action will hide this archived variation from the list of steps, but its analytics will be visible. %1$s Do you want to hide this archived variation?"
 msgstr ""
 
 #. translators: %1$s is replaced with the HTML tag
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "This action will delete this archived variation and its analytics data permanently. %1$s Do you want to delete this archived variation?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Deleted On: "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Archived On: "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Archived Steps"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Edit Step Name"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:33
 msgid "Save"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Update Template"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Changing the template will permanently delete the current design in this step. Would you still like to proceed?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Change Template"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "If you are using shortcodes, enable this design settings to apply styles."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:20
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Enable Design Settings"
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:21
-#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:17
 msgid "Activate %s"
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Activating %s"
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:18
 msgid "Successfully Activated!"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:18
 msgid "Failed! Activation!"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Upgrade to Cartflows Pro"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:29
 msgid "Upgrade to CartFlows Higher plan"
 msgstr ""
 
 #. translators: %1$s: anchor tag start, %2$s: anchor tag end.
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:26
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:30
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:31
 msgid "Activate the License"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Step Type: "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "License is required!"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Activate the license to modify this offer step's settings"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "No product Selected"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Once you select the product, they will be displayed here."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Shipping Rate"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Once you have add product, it will be displayed here."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Find product"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "AND"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Please Update the CartFlows Pro to the latest version to use the conditional order bump feature."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Enable conditional order bump "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "By enabling this option, you can create the conditions to display the order bump."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Show this order bump if following conditions are true"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add Condition"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "OR"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add Conditions Group"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Order Bump Product Image"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Styles"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Conditions"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "No product"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Duplicate Order Bump"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Edit Order Bump"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Trash Order Bump"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Do you really want to trash this order bump permanently?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Delete Order Bump"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Ready to boost your sales with Order Bumps?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Upgrading your plan will unlock this feature."
 msgstr ""
 
@@ -4722,483 +4722,483 @@ msgstr ""
 #: admin-core/assets/build/settings-app.js:12
 #: admin-core/assets/build/settings-app.js:13
 #: admin-core/assets/build/settings-app.js:14
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Status"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Actions"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Create an order bump."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Enter order bump name"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Please enter the order bump title"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:55
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:59
 msgid "Preview"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "View in Full Screen"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Exit Full Screen"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Order Submitted"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Special Offer"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Order Receipt"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Enable Checkout Offer"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Dynamic Conditions"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Ready to boost your sales with Dynamic Conditions?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Please Update the CartFlows Pro to the latest version to use the dynamic offers feature."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Enable Dynamic Offers"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "By enabling this option, you can create the conditions for the next-step (dynamic offer) redirection."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Redirect to: "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Search for step…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "If the following conditions are true"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add Dynamic Offer"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Search for default step…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "If all of the above conditions failed."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Label"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "ID"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Enable"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Email field is not editable when using the Modern Checkout Style"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add New Field"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:26
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:29
 msgid "Date & Time"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add Custom Field"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Billing"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Shipping"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "TextArea"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Number"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Checkbox"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Radio"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Select"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Hidden"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:22
-#: admin-core/assets/build/settings-app.js:26
+#: admin-core/assets/build/settings-app.js:27
 msgid "Add To"
 msgstr ""
 
 #. translators: %$s is replaced with the HTML tag
 #: admin-core/assets/build/editor-app.js:23
-#: admin-core/assets/build/settings-app.js:27
+#: admin-core/assets/build/settings-app.js:28
 msgid "Label %1$s*%2$s"
 msgstr ""
 
 #. translators: %$s is replaced with the HTML tag
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Field value will store in this meta key. Add field id without prefix like \"billing_\" or \"shipping_\". %s Use \"_\" instead of spaces."
 msgstr ""
 
 #. translators: %$s is replaced with the HTML tag
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Min Value"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Max Value"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Enter your options separated by (|)."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "UnChecked"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Field Input Type"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Date"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Time"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Min "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Max "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Show in Email"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Billing Fields"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Shipping Fields"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Delete Field"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Are you really want to delete field?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Field Editor"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:24
-#: admin-core/assets/build/settings-app.js:28
+#: admin-core/assets/build/settings-app.js:29
 msgid "Label is required field"
 msgstr ""
 
 #. translators: %1$s: anchor tag start, %2$s: anchor tag end.
 #: admin-core/assets/build/editor-app.js:26
-#: admin-core/assets/build/settings-app.js:30
+#: admin-core/assets/build/settings-app.js:31
 msgid "%1$sPremium Feature%2$s: Upgrading your plan will unlock it"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:26
-#: admin-core/assets/build/settings-app.js:30
+#: admin-core/assets/build/settings-app.js:31
 msgid "WooCommerce is required!"
 msgstr ""
 
 #. translators: %s: step type
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "To modify the %s step options, please install and activate the WooCommerce plugin."
 msgstr ""
 
 #. translators: %s: step type
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:33
 msgid "Activating…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:33
 msgid "Activated"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Funnel Settings"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Save Setting"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Disable Store Checkout"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Enable Store Checkout"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Edit Title"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Publish or Draft the Funnel"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
 #: admin-core/assets/build/settings-app.js:14
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Publish"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Do you really want to publish this funnel?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Draft Funnel"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Do you really want to draft this funnel?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Unique Visits"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Conversion Rate"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Total number of orders."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Grand total of all orders."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Average total of every order."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Grand total of all order bumps."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
 #: admin-core/assets/build/settings-app.js:14
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Export Flow"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Open Funnel Settings"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:28
-#: admin-core/assets/build/settings-app.js:32
+#: admin-core/assets/build/settings-app.js:33
 msgid "Delete Store Checkout"
 msgstr ""
 
 #. translators: %s new line break
 #: admin-core/assets/build/editor-app.js:29
-#: admin-core/assets/build/settings-app.js:33
+#: admin-core/assets/build/settings-app.js:34
 msgid "Do you really want to delete store checkout?%1$1sNOTE: This action cannot be reversed."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:29
-#: admin-core/assets/build/settings-app.js:33
+#: admin-core/assets/build/settings-app.js:34
 msgid "archived_date"
 msgstr ""
 
 #. translators: %1$s: html tag, %2$s: html tag
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "%1$sNote:%2$s The orders which are placed by the admins are not considered while calculating the analytics."
 msgstr ""
 
 #. translators: %1$s: html tag, %2$s: html tag
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Reset Analytics"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Are you really want to reset funnel analytics?"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Resetting"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Funnel Steps"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Add New Step"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "No Steps Added."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Seems like there are no steps created or added in this flow"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:34
+#: admin-core/assets/build/settings-app.js:35
 msgid "Add new step"
 msgstr ""
 
@@ -5206,38 +5206,38 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:45
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:34
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:35
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Select Step Type"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Activating WooCommerce.."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Installing WooCommerce.."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Successfully Installed!"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Installation Failed!"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:30
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:48
-#: admin-core/assets/build/settings-app.js:34
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:35
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:52
 msgid "Import Step"
 msgstr ""
 
@@ -5245,10 +5245,10 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:45
 #: admin-core/assets/build/editor-app.js:49
-#: admin-core/assets/build/settings-app.js:34
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:52
+#: admin-core/assets/build/settings-app.js:35
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:53
 msgid "Add multiple steps to your flows today with an upgraded CartFlows plan."
 msgstr ""
 
@@ -5259,12 +5259,12 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:48
 #: admin-core/assets/build/editor-app.js:49
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:34
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:35
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:49
 #: admin-core/assets/build/settings-app.js:52
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:53
+#: admin-core/assets/build/settings-app.js:57
 msgid "Get CartFlows Higher Plan"
 msgstr ""
 
@@ -5276,13 +5276,13 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:46
 #: admin-core/assets/build/editor-app.js:50
 #: admin-core/assets/build/editor-app.js:51
-#: admin-core/assets/build/settings-app.js:35
 #: admin-core/assets/build/settings-app.js:36
-#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:37
 #: admin-core/assets/build/settings-app.js:46
-#: admin-core/assets/build/settings-app.js:49
-#: admin-core/assets/build/settings-app.js:53
+#: admin-core/assets/build/settings-app.js:47
+#: admin-core/assets/build/settings-app.js:50
 #: admin-core/assets/build/settings-app.js:54
+#: admin-core/assets/build/settings-app.js:55
 msgid "Add multiple steps to your flows by activating %s."
 msgstr ""
 
@@ -5292,11 +5292,11 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:43
 #: admin-core/assets/build/editor-app.js:47
 #: admin-core/assets/build/editor-app.js:52
-#: admin-core/assets/build/settings-app.js:37
 #: admin-core/assets/build/settings-app.js:38
-#: admin-core/assets/build/settings-app.js:47
-#: admin-core/assets/build/settings-app.js:50
-#: admin-core/assets/build/settings-app.js:55
+#: admin-core/assets/build/settings-app.js:39
+#: admin-core/assets/build/settings-app.js:48
+#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:56
 msgid "Add %1$s step to your flows by activating %2$s."
 msgstr ""
 
@@ -5306,17 +5306,17 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:48
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:39
 #: admin-core/assets/build/settings-app.js:40
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:51
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:41
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:52
+#: admin-core/assets/build/settings-app.js:57
 msgid "Add unlimited income boosting one-click %s to your flows when you upgrade to our CartFlows Higher plan today."
 msgstr ""
 
 #. translators: %1$s, %2$s are variables
 #: admin-core/assets/build/editor-app.js:37
-#: admin-core/assets/build/settings-app.js:41
+#: admin-core/assets/build/settings-app.js:42
 msgid "Add %1$s step to your flow by activating CartFlows license."
 msgstr ""
 
@@ -5324,9 +5324,9 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:38
 #: admin-core/assets/build/editor-app.js:39
 #: admin-core/assets/build/editor-app.js:49
-#: admin-core/assets/build/settings-app.js:42
 #: admin-core/assets/build/settings-app.js:43
-#: admin-core/assets/build/settings-app.js:52
+#: admin-core/assets/build/settings-app.js:44
+#: admin-core/assets/build/settings-app.js:53
 msgid "Access all of our pro templates by activating %s."
 msgstr ""
 
@@ -5334,10 +5334,10 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:39
 #: admin-core/assets/build/editor-app.js:49
 #: admin-core/assets/build/editor-app.js:54
-#: admin-core/assets/build/settings-app.js:17
-#: admin-core/assets/build/settings-app.js:43
-#: admin-core/assets/build/settings-app.js:52
-#: admin-core/assets/build/settings-app.js:57
+#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:44
+#: admin-core/assets/build/settings-app.js:53
+#: admin-core/assets/build/settings-app.js:58
 #: wizard/assets/build/wizard-app.js:3
 msgid "Access all of our pro templates when you upgrade your plan to CartFlows Pro today."
 msgstr ""
@@ -5345,17 +5345,17 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:39
 #: admin-core/assets/build/editor-app.js:49
 #: admin-core/assets/build/editor-app.js:54
-#: admin-core/assets/build/settings-app.js:17
-#: admin-core/assets/build/settings-app.js:43
-#: admin-core/assets/build/settings-app.js:52
-#: admin-core/assets/build/settings-app.js:57
+#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:44
+#: admin-core/assets/build/settings-app.js:53
+#: admin-core/assets/build/settings-app.js:58
 #: wizard/assets/build/wizard-app.js:3
 msgid "Get CartFlows Pro"
 msgstr ""
 
 #. translators: %1$s, %2$s are variables
 #: admin-core/assets/build/editor-app.js:40
-#: admin-core/assets/build/settings-app.js:44
+#: admin-core/assets/build/settings-app.js:45
 msgid "Add %1$s step to your flows by activating license."
 msgstr ""
 
@@ -5365,33 +5365,33 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:48
 #: admin-core/assets/build/editor-app.js:53
 #: admin-core/assets/build/editor-app.js:54
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:51
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:52
 #: admin-core/assets/build/settings-app.js:57
+#: admin-core/assets/build/settings-app.js:58
 msgid "You need WooCommerce plugin installed and activated to import this step."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:48
-#: admin-core/assets/build/settings-app.js:17
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:52
 msgid "Imported! Redirecting…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:48
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:52
 msgid " Please sync the library and try importing the template again."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:48
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:52
 msgid "Import Failed! Try again."
 msgstr ""
 
@@ -5399,261 +5399,261 @@ msgstr ""
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:49
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:52
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:53
+#: admin-core/assets/build/settings-app.js:57
 msgid "Create Step"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:49
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:52
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:53
 msgid "Creating Step.."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:40
 #: admin-core/assets/build/editor-app.js:49
-#: admin-core/assets/build/settings-app.js:44
-#: admin-core/assets/build/settings-app.js:52
+#: admin-core/assets/build/settings-app.js:45
+#: admin-core/assets/build/settings-app.js:53
 msgid "Step Created! Redirecting…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:40
-#: admin-core/assets/build/settings-app.js:44
+#: admin-core/assets/build/settings-app.js:45
 msgid "Failed to Create Step!"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Activate license for adding more steps and other features."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Close the window"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Name Your Step"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Step Name"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Enter Step Name"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Learn How"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:56
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:57
 msgid "Create from Scratch"
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:55
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:59
 msgid "Step thumbnail image"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:55
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:59
 msgid "Import"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
 #: admin-core/assets/build/editor-app.js:55
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:19
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:59
 #: wizard/assets/build/wizard-app.js:3
 msgid "Back"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:44
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Sync Library"
 msgstr ""
 
 #. translators: %d is replaced with the condition number
 #: admin-core/assets/build/editor-app.js:45
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Importing page %d"
 msgstr ""
 
 #. translators: %d is replaced with the condition number
 #: admin-core/assets/build/editor-app.js:45
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Sync Complete"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:45
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Syncing Library…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:45
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Library Synced"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:45
 #: admin-core/assets/build/editor-app.js:55
-#: admin-core/assets/build/settings-app.js:48
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:49
+#: admin-core/assets/build/settings-app.js:59
 msgid "Steps Library"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:45
-#: admin-core/assets/build/settings-app.js:48
+#: admin-core/assets/build/settings-app.js:49
 msgid "Get CartFlows Higher plan"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:48
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:52
 msgid "Activate license for adding more flows and other features."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:48
-#: admin-core/assets/build/settings-app.js:51
+#: admin-core/assets/build/settings-app.js:52
 msgid "Importing Step.."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Close"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:53
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Error"
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:54
-#: admin-core/assets/build/settings-app.js:57
+#: admin-core/assets/build/settings-app.js:58
 msgid "Add unlimited income boosting one-click upsells to your flows by activating %s"
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:54
-#: admin-core/assets/build/settings-app.js:57
+#: admin-core/assets/build/settings-app.js:58
 msgid "Add unlimited income boosting one-click upsells to your flows when you upgrade to our CartFlows Plus or Pro plan today."
 msgstr ""
 
 #. translators: %s is replaced with plugin name
 #: admin-core/assets/build/editor-app.js:55
-#: admin-core/assets/build/settings-app.js:58
+#: admin-core/assets/build/settings-app.js:59
 msgid "Access all of our pro templates by activating %s"
 msgstr ""
 
 #. translators: %s is replaced with the step title
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Templates for %s"
 msgstr ""
 
 #. translators: %s is replaced with the step title
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "CartFlows Upsell/Downsell offer does not support the "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid " payment gateway. Please find the supported payment gateways "
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "here."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Duplicating funnel…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Drafting funnel…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Deleting funnel…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Restoring funnel…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Exporting…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Duplicating step…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Deleting step…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Creating variation…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Archiving variation…"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:56
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Please wait. Declaring winner…"
 msgstr ""
 
@@ -5687,7 +5687,7 @@ msgstr ""
 
 #. translators: %d flow count
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Create your first funnel"
 msgstr ""
 
@@ -5857,7 +5857,7 @@ msgid "Next"
 msgstr ""
 
 #: admin-core/assets/build/settings-app.js:12
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Import Funnel"
 msgstr ""
 
@@ -5924,7 +5924,7 @@ msgid "Trash "
 msgstr ""
 
 #: admin-core/assets/build/settings-app.js:13
-#: admin-core/assets/build/settings-app.js:14
+#: admin-core/assets/build/settings-app.js:15
 msgid "Mode"
 msgstr ""
 
@@ -6034,10 +6034,12 @@ msgid "Trash"
 msgstr ""
 
 #: admin-core/assets/build/settings-app.js:14
+#: admin-core/assets/build/settings-app.js:15
 msgid "Name"
 msgstr ""
 
 #: admin-core/assets/build/settings-app.js:14
+#: admin-core/assets/build/settings-app.js:15
 msgid "Sales"
 msgstr ""
 
@@ -6045,384 +6047,390 @@ msgstr ""
 msgid "Move to Trash"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:14
-msgid "No matching results found."
+#. translators: %d Search term
+#: admin-core/assets/build/settings-app.js:15
+msgid "No matching results found for the search term \"%s\"."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:14
+#. translators: %d Search term
+#: admin-core/assets/build/settings-app.js:15
+msgid "No flows found for the selected filter."
+msgstr ""
+
+#: admin-core/assets/build/settings-app.js:15
 msgid "Please try using different keywords, date range, or filters to refine your results."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:14
+#: admin-core/assets/build/settings-app.js:15
 msgid "Create New"
 msgstr ""
 
 #. translators: %d flow count
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid " %d items"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Build a sales funnel with everything you need to generate leads and grow sales."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "One Click Upsells"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "A/B Split Testing"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Conversion Templates"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Checkout Editor"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Insights"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Create Funnel"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Plugin Required"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "You need WooCommerce plugin installed and activated to access this page."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Installing"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Activating"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Failed"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Redirecting"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Create a global store checkout"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "A well-designed checkout page can help streamline the checkout process, reduce cart abandonment rates and increase conversions."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Improved user experience"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Brand consistency"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Increased trust and credibility"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Flexibility and customization"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Competitive advantage"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:16
+#: admin-core/assets/build/settings-app.js:19
 msgid "Create Store Checkout"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Installing…"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Active"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Install"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "By setting up the store checkout, your default checkout page will be replaced by the CartFlows modern checkout which will lead to more conversion and leads."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Get Started"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Connect a Payment Gateway"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Stripe for WooCommerce delivers a simple, secure way to accept credit card payments in your WooCommerce store."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Connect with Stripe"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Setting up…"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Recover Abandoned Carts"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Use our cart abandonment plugin and automatically recover your lost revenue absolutely free."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Finishing…"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Setup Email Reports"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Let CartFlows take the guesswork out of your checkout results. Each week your store will send you an email report with key metrics and insights."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Add Email Address"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Dismiss Setup"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "Recommended Plugins"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:15
+#: admin-core/assets/build/settings-app.js:16
 msgid "View All Steps"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Click for more info"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "You need WooCommerce plugin installed and activated to import this funnel."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Access all of our pro templates by activating CartFlows Pro."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Access all of our pro templates when you activate CartFlows Pro license."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Importing Complete Funnel.."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Design Your Flow"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Created! Redirecting…"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Failed to Create Flow!"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Upgrade To CartFlows Pro"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Name Your Funnel"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Funnel Name"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Enter Funnel Name"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Funnel thumbnail image"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Funnel Preview"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Live Preview"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "Funnel Templates"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Start from scratch"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "It seems that the page builder you selected is inactive."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid " to see CartFlows templates. If you prefer another page builder tool, you can "
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
+#: admin-core/assets/build/settings-app.js:18
 msgid "select it here"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Are you using any other page builder? No worries. CartFlows works well with every other page builder. Right now we do not have ready templates for every page builder but we are planning to add it very soon."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Learn How "
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "No Results Found."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Don't see a funnel that you would like to import?"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Please suggest us "
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Choose a Funnel Templates"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Search Templates"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Start from Scratch"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "It seems that you are using the page builder other than Elementor, Beaver Builder, Block Builder."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Creates Store checkout with required pages"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Checkout Page"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Thank you Page"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "NOTE : You need to add shortcodes on each page, or use our custom widget or just update ready-made templates from CartFlows Library."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Oops!!! No template Found."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Seems like no template is available for chosen editor."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Store Checkout Templates"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Name Your Store Checkout"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "You can't create more than 3 flows in free version. Upgrade to CartFlows Pro for adding more flows and other features."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Upgrade To Cartflows Pro"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "Store Checkout Name"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:18
+#: admin-core/assets/build/settings-app.js:19
 msgid "It seems that you are using the page builder other than Elementor, Beaver Builder, Divi & Gutenberg."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "No CartFlows Logs Found."
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "CartFlows Logs"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Copied"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Copy"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Downloading"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Download"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Deleting"
 msgstr ""
 
-#: admin-core/assets/build/settings-app.js:59
+#: admin-core/assets/build/settings-app.js:60
 msgid "Deleted"
 msgstr ""
 

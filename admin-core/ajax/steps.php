@@ -414,7 +414,7 @@ class Steps extends AjaxBase {
 		if ( '' === $step_tile ) {
 			$step_tile = __( '(no title)', 'cartflows' );
 		}
-		$step_slug = isset( $_POST['post_name'] ) ? sanitize_text_field( wp_unslash( $_POST['post_name'] ) ) : get_post_field( 'post_name', $step_id );
+		$step_slug = isset( $_POST['step_post_name'] ) ? sanitize_text_field( wp_unslash( $_POST['step_post_name'] ) ) : get_post_field( 'post_name', $step_id );
 
 		$step_data = array(
 			'ID'         => $step_id,

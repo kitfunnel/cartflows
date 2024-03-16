@@ -901,9 +901,9 @@ class Cartflows_Checkout_Meta_Data extends Cartflows_Step_Meta_Base {
 					'fields'   => array(
 						'slug'                       => array(
 							'type'          => 'text',
-							'name'          => 'post_name',
+							'name'          => 'step_post_name',
 							'label'         => __( 'Step Slug', 'cartflows' ),
-							'value'         => get_post_field( 'post_name', $step_id ),
+							'value'         => get_post_field( 'post_name' ),
 							'display_align' => 'vertical',
 							'tooltip'       => __( 'Current step\'s slug. Be careful while changing the slug. It will change the URL of the current step.', 'cartflows' ),
 						),
